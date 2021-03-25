@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/study")
-public class StudyController {
+public class StudyController { 
+	
 
 	@PostMapping("/a")
 	public String book() {
